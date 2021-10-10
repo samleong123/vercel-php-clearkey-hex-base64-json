@@ -1,0 +1,6 @@
+{
+  "name": "Clearkey License URL generator",
+  "description": "A barebones PHP app run on Heroku that convert Clearkey in Hex to Base64 and output the Base64 Key and Key ID as JSON",
+  "repository": "https://github.com/samleong123/heroku-clearkey-hex-base64-json",
+  "addons": []
+}
