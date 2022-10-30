@@ -1,5 +1,10 @@
 # Convert Clearkey in Hex to Base64 and output JSON automatically
 
+## Notice
+The deployed website : [https://clearkey-base64-2-hex-json.herokuapp.com/](https://clearkey-base64-2-hex-json.herokuapp.com/)  **WILL NOT WORK** anymore because Heroku intiated plans to remove free dynos plans starting November 28, 2022.
+
+If you want to use it , please deploy yourself with a PHP capable environment.
+
 ## Before you use this
 1. This tool is written in PHP
 2. You can run it locally by copying all files in ```/web``` to your web server's root directory. </br> Ensure PHP is installed and configured properly with your web server before deploying them on your web server.
