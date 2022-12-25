@@ -14,7 +14,7 @@ Hence , a Vercel version of this project was created and thanks to [Vercel Commu
 6. Please star this repo if you feel that this repo is helping you. Thanks!
 
 ## How to deploy to Vercel?
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/git/third-party)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/import?s=https%3A%2F%2Fgithub.com%2Fsamleong123%2Fvercel-php-clearkey-hex-base64-json&hasTrialAvailable=1&showOptionalTeamCreation=false&project-name=vercel-php-clearkey-hex-base64-json&framework=other&totalProjects=1)
 
 **Reminder** :
 You are likely to get failed attempt for the 1st time when deploying it , do not panic and follow steps below :
