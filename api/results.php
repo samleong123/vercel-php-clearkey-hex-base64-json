@@ -43,8 +43,8 @@ if (empty($finalkey64)){
       exit;
   }
 }
-
-
+?>
+/*
 // create JSON for keys 
 $keys[] = array("kty"=>"oct","k"=>$finalkey64,"kid"=>$finalkeyid64);
 
@@ -54,8 +54,8 @@ $license = array("keys"=>$keys,"type"=>"temporary");
 // output JSON
 header("Content-Type: application/json");
 echo json_encode($license);
+*/
 
-/*
 {  
     "keys":[  
        {  
@@ -66,6 +66,6 @@ echo json_encode($license);
     ],
     "type":"temporary"
  }
- */
-?>
+ 
+
 
