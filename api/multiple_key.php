@@ -2,6 +2,7 @@
 /* error_reporting(0);
 $error = 2; */
 $data = $_REQUEST["data"];
+echo base64_decode($data);
 $json_data = json_decode(base64_decode($data),true);
 $keys_array = [];
 for ($i = 0; $i < count($json_data); $i++) {
