@@ -12,6 +12,7 @@ Hence , a Vercel version of this project was created and thanks to [Vercel Commu
 4. You can also visit [https://vercel-php-clearkey-hex-base64-json.vercel.app/](https://vercel-php-clearkey-hex-base64-json.vercel.app/) directly if you wanted to use this tool on the spot. </br> Deployed by me on Vercel.
 5. I shall not be liable for any problem that will produce losses or inconveniences incurred as a result of such changes or differences.
 6. Please star this repo if you feel that this repo is helping you. Thanks!
+7. Multiple Key & Key ID support is now [here](https://github.com/samleong123/vercel-php-clearkey-hex-base64-json/blob/main/multiple_key.md)!
 
 ## How to deploy to Vercel?
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/import?s=https%3A%2F%2Fgithub.com%2Fsamleong123%2Fvercel-php-clearkey-hex-base64-json&hasTrialAvailable=1&showOptionalTeamCreation=false&project-name=vercel-php-clearkey-hex-base64-json&framework=other&totalProjects=1)
