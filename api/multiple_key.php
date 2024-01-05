@@ -6,12 +6,12 @@ $json_data = json_decode(base64_decode($data),true);
 $keys_array = [];
 for ($i = 0; $i < count($json_data); $i++) {
 
-$hex = $json_data[$i][key_id];
+$hex = $json_data[$i]['key_id'];
 $bin = hex2bin($hex);
 $keyid64 = base64_encode($bin);
 $finalkeyid64 = str_replace('=', '', $keyid64);
 
-$hex2 = $json_data[$i][key];
+$hex2 = $json_data[$i]['key'];
 $bin2 = hex2bin($hex2);
 $key64 = base64_encode($bin2);
 $finalkey64 = str_replace('=', '', $key64);
