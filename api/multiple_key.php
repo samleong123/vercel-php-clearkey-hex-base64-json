@@ -1,6 +1,6 @@
 <?php
-/* error_reporting(0);
-$error = 2; */
+error_reporting(0);
+$error = 2;
 $data = $_REQUEST["data"];
 $json_data = json_decode(base64_decode($data),true);
 $keys_array = [];
