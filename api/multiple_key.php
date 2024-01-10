@@ -24,7 +24,7 @@ $finalkey64 = str_replace('=', '', $key64);
     $keys_array[] = $key;
 }
 
-$output_array = ["keys" => $keys_array];
+$output_array = ["keys" => $keys_array,"type" => "temporary"];
 $output_json = json_encode($output_array, JSON_PRETTY_PRINT);
 header("Content-Type: application/json");
 echo $output_json;
