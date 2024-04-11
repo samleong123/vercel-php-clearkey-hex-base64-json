@@ -4,6 +4,10 @@
 Heroku version has deprecated because Heroku decided to cancel their free plan. 
 Hence , a Vercel version of this project was created and thanks to [Vercel Community](https://github.com/vercel-community/php) which has successfully runned PHP on Vercel.
 
+## Disclaimer
+By utilizing this service, you **may potentially be in violation** of the terms of service of your streaming platform. I **bear no responsibility** for any issues, losses, or inconveniences that may arise due to such violations or discrepancies. You should **assume full responsibility** and **bear the consequences** of using this service. This service **solely provides a format conversion** for Clearkey Key ID and Key into JSON form. It **does not include** the conversion of key encryption keys **for DRM protection** nor does it **bypass technological security measures (DRM)**. All Clearkey Key IDs and Keys are in **plain text**, and I have no means to **verify the manner** in which you have obtained these Clearkey Key IDs and Keys. All Clearkey Key IDs and Keys are provided in plain text and are inherently capable of decrypting CENC encrypted streams. This website merely **converts these IDs and keys into a JSON format** to address compatibility issues. Please refer to [here](https://github.com/samleong123/vercel-php-clearkey-hex-base64-json/blob/main/takedown-email.md) for received take down notice.
+
+
 
 ## Before you use this
 1. This tool is written in PHP
